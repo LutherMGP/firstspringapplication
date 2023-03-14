@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p th:each="item :${items}">
+        <span th:text="${item.name}" />
+        <span th:text="${item.price}" />
+    </p>
+</body>
+</html>
